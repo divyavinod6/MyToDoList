@@ -45,7 +45,7 @@ function App() {
     localStorage.setItem('todos', JSON.stringify(todos));
   }, [todos]);
   return (
-    <>
+    <div>
       <Router>
         <Header title="MyToDoList" searchbar={false} />
         <Routes>
@@ -63,7 +63,7 @@ function App() {
 
         <Footer />
       </Router>
-    </>
+    </div>
   );
 }
 

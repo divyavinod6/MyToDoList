@@ -27,7 +27,13 @@
 .App-link {
   color: #61dafb;
 }
-
+.custom-background {
+  /* Add your background image properties here */
+  background-image: url('/public/bgimg.jpg');
+  background-size: cover; /* Adjust as needed */
+  background-repeat: no-repeat; /* Adjust as needed */
+  background-attachment: fixed; /* Adjust as needed */
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
